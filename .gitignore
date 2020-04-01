@@ -1,3 +1,5 @@
 env
 .vscode
 utils/__pycache__
+test.jpg
+cctv_info.csv
