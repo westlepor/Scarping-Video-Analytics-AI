@@ -3,3 +3,5 @@ env
 utils/__pycache__
 test.jpg
 imgs/
+utils/yolo.h5
+utils/detector

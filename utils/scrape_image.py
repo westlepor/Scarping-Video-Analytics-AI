@@ -8,8 +8,9 @@ import urllib3
 import cv2
 import re
 from bs4 import BeautifulSoup
-from utils.scrape_cctv_info import get_cctv_url
 import time
+from utils.scrape_cctv_info import get_cctv_url
+from utils.vehicle_count import detector
 
 def get_image():
     # 5 urls
@@ -41,5 +42,6 @@ def get_image():
             ret, frame = video.read()
             filename = "imgs/test" + str(index) + ".jpg"
             cv2.imwrite(filename, frame)
+            detector(filename)
         # Every 2 mins
-        time.sleep(120)
+        time.sleep(10)
