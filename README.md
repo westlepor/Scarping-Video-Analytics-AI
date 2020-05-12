@@ -1,8 +1,12 @@
-# Scraping Video from this map site and detecting cars on the road using CNN model
+# Scraping Video from this map site and detecting cars on the road
 http://cwwp2.dot.ca.gov/vm/iframemap.htm
 
-<h5>Get CCTV camera urls from map site</h5>
+## Get CCTV camera urls from map site
+Used several python libraries for scraping such as beautifulsoup4.
+The m3u8 data from each live camera is sent for car detection in the road.
 <img src="./assets/map.png?raw=true">
 
-<h5>Detect Cars and Send numbers of cars into backend</h5>
+## Detect Cars and Send numbers of cars as json into backend in real-time
+Detected Cars using DarkNet in low quality images for more accuracy.
+Integrated deep learning model into backend
 <img src="./assets/1.jpg?raw=true">
