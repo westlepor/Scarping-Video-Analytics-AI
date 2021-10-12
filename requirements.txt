@@ -3,7 +3,7 @@ requests
 lxml
 urllib3
 opencv-python==3.4.3.18
-opencv-contrib-python==4.0.0.21
+opencv-contrib-python==4.1.1.26
 imageai
 tensorflow==1.14
 keras
