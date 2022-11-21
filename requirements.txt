@@ -5,5 +5,5 @@ urllib3
 opencv-python==3.4.3.18
 opencv-contrib-python==4.0.0.21
 imageai
-tensorflow==1.14
+tensorflow==2.9.3
 keras
